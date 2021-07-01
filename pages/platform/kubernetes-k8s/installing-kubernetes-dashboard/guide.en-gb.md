@@ -120,7 +120,7 @@ Using the `cluster-admin` role for your cluster, we will create a `RoleBinding`,
 To do this, please copy the following YAML into a `dashboard-cluster-role-binding.yml` file:
 
 ```yaml
-apiVersion: rbac.authorization.k8s.io/v1beta1
+apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
 metadata:
   name: admin-user
